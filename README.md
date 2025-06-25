@@ -4,6 +4,11 @@ A full-stack MERN application that allows administrators to manage instructors, 
 
 ---
 
+## 🌐 Live Demo
+
+👉 [Visit the App](https://lecture-scheduler.vercel.app/login)
+
+
 ## 🔧 Tech Stack
 
 - **Frontend**: React, Axios, React Router DOM
