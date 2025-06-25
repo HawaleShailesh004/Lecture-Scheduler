@@ -8,7 +8,7 @@ const JWT_SECRET = 'skd93j@#sdf!3^9sdf!sdf123'; // Use .env in prod
 // Admin login (static credentials)
 router.post('/admin', (req, res) => {
   const { email, password } = req.body;
-  if (email === '123@.com' && password === 'admin123') {
+  if (email === 'admin@lectures.com' && password === 'admin123') {
     const token = jwt.sign({ role: 'admin' }, JWT_SECRET);
     return res.json({ token, role: 'admin' });
   }
