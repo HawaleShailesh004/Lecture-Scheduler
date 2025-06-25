@@ -11,7 +11,7 @@ const LoginPage = ({ setRole, setToken, setInstructorId }) => {
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
-  const API = 'http://localhost:5000/api/auth';
+  const API = 'https://lecture-scheduler-backend-service.onrender.com/api/auth';
 
   const handleAdminLogin = async () => {
     try {

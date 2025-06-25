@@ -11,7 +11,9 @@ const authRoutes = require('./routes/authRoutes');
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: 'https://lecture-scheduler.vercel.app', // replace with actual Vercel frontend URL
+}));
 app.use(express.json());
 
 // API Routes

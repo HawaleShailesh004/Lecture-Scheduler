@@ -10,7 +10,7 @@ const AdminPanel = () => {
   const [lectureForm, setLectureForm] = useState({ courseId: '', instructorId: '', date: '' });
   const [message, setMessage] = useState({ type: '', text: '' });
 
-  const API = 'http://localhost:5000/api';
+  const API = 'https://lecture-scheduler-backend-service.onrender.com/api';
 
   useEffect(() => {
     fetchData();

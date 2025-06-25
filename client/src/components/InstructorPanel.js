@@ -5,7 +5,7 @@ import './InstructorPanel.css';
 const InstructorPanel = ({ instructorId }) => {
   const [lectures, setLectures] = useState([]);
   const instructorName = localStorage.getItem('instructorName') || 'Instructor';
-  const API = 'http://localhost:5000/api';
+  const API = 'https://lecture-scheduler-backend-service.onrender.com/api';
 
   useEffect(() => {
     if (instructorId) {
