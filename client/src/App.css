@@ -1,0 +1,39 @@
+/* Overall App Container */
+.app-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+}
+
+/* Logout Bar */
+.logout-bar {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Logout Button */
+.logout-button {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #b02a37;
+}
+
+/* 404 Page Styling */
+.not-found {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 1.2rem;
+  color: #999;
+}
